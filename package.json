@@ -1,0 +1,46 @@
+{
+  "name": "cwc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:init": "npx prisma init",
+    "prisma:format": "npx prisma format",
+    "prisma:validate": "npx prisma validate",
+    "prisma:studio": "npx prisma studio",
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate:init": "npx prisma migrate dev --name init",
+    "prisma:migrate": "npx prisma migrate dev --name",
+    "prisma:migrate:deploy": "npx prisma migrate deploy",
+    "prisma:reset": "npx prisma migrate reset --force",
+    "prisma:pull": "npx prisma db pull"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
+    "@mantine/core": "^8.2.4",
+    "@mantine/hooks": "^8.2.4",
+    "@mantine/notifications": "^8.2.4",
+    "@prisma/client": "^6.14.0",
+    "@tanstack/react-query": "^5.85.3",
+    "next": "15.4.6",
+    "pg": "^8.16.3",
+    "prisma": "^6.14.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.62.0",
+    "yup": "^1.7.0",
+    "zustand": "^5.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "typescript": "^5"
+  }
+}
